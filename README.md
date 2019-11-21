@@ -41,7 +41,7 @@ name of keyboard.add(itembtn1, itembtn2, itembtn3, itembtn4)
 ```
 This is the result of what we created
 
-![View-on-GitHub](https://raw.githubusercontent.com/SubZKiller/UnibaguePocketBot/images/teclado.jpg)
+![View-on-GitHub](https://raw.githubusercontent.com/SubZKiller/UnibaguePocketBot/master/images/teclado.jpg)
 
 
 
