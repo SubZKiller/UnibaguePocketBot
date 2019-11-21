@@ -53,8 +53,21 @@ def  command_text_opcioneselectivas(m):
 
 bot.send_message(m.chat.id, "Message bot reply", reply_markup=name of keayboard)
 ```
+
 Apart from the basic message replying this API is also capable of  sending images, audios, links, and more. 
 For more information to all of these functions visit: https://github.com/eternnoir/pyTelegramBotAPI/blob/master/README.md
 
+#How to send pictures
+```python
+@bot.message_handler(func=lambda message: message.text == "Image")
 
+def  command_text_imagesender1(m):
+bot.send_photo(m.chat.id, open('/home/vdesktop/Botimages/1.jpg', 'rb'))
+```
+#How to send an ubication
+```python
+@bot.message_handler(func=lambda message: message.text == "Xmensaje")
 
+def  command_text_xubicationesender1(m):
+bot.send_location(m.chat.id, lon, lat)
+```
