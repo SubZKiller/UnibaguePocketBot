@@ -41,7 +41,7 @@ name of keyboard.add(itembtn1, itembtn2, itembtn3, itembtn4)
 ```
 This is the result of what we created
 
-![This is the result of what we created](blob:https://web.whatsapp.com/c2bd6288-11a9-4796-8ecb-6200587453fa)
+![View-on-GitHub](https://raw.githubusercontent.com/SubZKiller/UnibaguePocketBot/images/teclado.jpg)
 
 
 
@@ -56,5 +56,5 @@ bot.send_message(m.chat.id, "Message bot reply", reply_markup=name of keayboard)
 Apart from the basic message replying this API is also capable of  sending images, audios, links, and more. 
 For more information to all of these functions visit: https://github.com/eternnoir/pyTelegramBotAPI/blob/master/README.md
 
-![View-on-GitHub](https://user-images.githubusercontent.com/721500/63188836-82fb9600-c030-11e9-9bc5-cf304398500d.png)
+
 
