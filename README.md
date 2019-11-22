@@ -71,5 +71,5 @@ bot.send_photo(m.chat.id, open('/home/vdesktop/Botimages/1.jpg', 'rb'))
 def  command_text_xubicationesender1(m):
 bot.send_location(m.chat.id, lon, lat)
 ```
-Result
+
 ![View-on-GitHub](https://raw.githubusercontent.com/SubZKiller/UnibaguePocketBot/master/images/imagen%20y%20ubicacion.jpg)
