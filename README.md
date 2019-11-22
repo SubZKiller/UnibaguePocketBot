@@ -1,6 +1,9 @@
 # Getting started
 
 This API is tested with Python 2.6, Python 2.7, Python 3.4, Pypy and Pypy 3. Install the library:
+# Meet the bot:
+YouTube: https://youtu.be/-FPjcd9bvWI
+Telegram: t.me/UnibaguePocketBot
 
 ## Installation
 
