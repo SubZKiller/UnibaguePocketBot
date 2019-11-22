@@ -655,16 +655,7 @@ def command_text_infoL1(m):
     bot.send_message(891149149, "Resp {}".format(chatnumber))
     bot.send_message(891149149, "Por ejemplo: R {} Hola, en estos momentos...".format(chatnumber))
 
-#Respuesta a insultos
-@bot.message_handler(regexp="Hijueputa")
-def command_text_insulto(m):
-    chatnumber=str(m.chat.id)
-    bot.send_message(m.chat.id, "Chupela gonorrea {}".format(m.chat.last_name))
-#Respuesta a insultos
-@bot.message_handler(regexp="Machetoso")
-def command_text_insulto(m):
-    chatnumber=str(m.chat.id)
-    bot.send_message(m.chat.id, "{} hijueputa".format(m.chat.first_name))
+
 #respuesta de profesores
 @bot.message_handler(regexp="Resp")
 def command_text_respteacher(m):
