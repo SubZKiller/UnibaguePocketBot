@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 import logging, sys, os
 
-TOKEN = '1021961362:AAHSeZhQea3UWSH5m6EAtnznVU02gA7eg50'
+TOKEN = 'INSERT HERE YOUR BOT TOKEN'
 
 
 ffx =  open("Usuarios.txt")
